@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BettherSign - Portfólio de Design Gráfico</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Adicionando AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagens/logo.png" alt="BettherSign Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Bem-vindo ao Portfólio da BettherSign</h1>
+        <p>Transformando ideias em designs incríveis</p>
+        <a href="#projetos" class="btn">Ver Projetos</a>
+    </section>
+
+    <section id="sobre" data-aos="fade-up">
+        <h2>Sobre Nós</h2>
+        <p>Na BettherSign, somos especialistas em design gráfico, criando soluções visuais inovadoras para nossos clientes. Combinamos criatividade e tecnologia para entregar resultados excepcionais.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Nossos Projetos</h2>
+        <div class="galeria">
+            <div class="projeto" data-aos="fade-right">
+                <img src="imagens/projeto1.png" alt="Projeto 1">
+                <p>Design de Identidade Visual para Empresa XYZ</p>
+            </div>
+            <div class="projeto" data-aos="fade-left">
+                <img src="imagens/projeto2.png" alt="Projeto 2">
+                <p>Website Interativo para a Marca ABC</p>
+            </div>
+            <div class="projeto" data-aos="fade-up">
+                <img src="imagens/projeto3.png" alt="Projeto 3">
+                <p>Campanha Publicitária Digital para DEF</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" data-aos="fade-up">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco pelo WhatsApp: <a href="tel:+5542988311586">(42) 98831-1586</a></p>
+        <p>Email: <a href="mailto:betthersign.contato@gmail.com">betthersign.contato@gmail.com</a></p>
+        <p>Siga-nos no Instagram: <a href="https://www.instagram.com/betthersign/" target="_blank">@betthersign</a></p>
+        <p>Desenvolvido por Victoria Elizabeth Ribeiro</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BettherSign. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Adicionando AOS JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Inicialize a biblioteca AOS
+        document.addEventListener("DOMContentLoaded", function() {
+            AOS.init();
+        });
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>

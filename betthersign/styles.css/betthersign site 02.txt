@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: linear-gradient(135deg, #ff7f50 0%, #ff6347 100%);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+#hero p {
+    font-size: 1.5em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #ff4500;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e63946;
+}
+
+section {
+    padding: 60px 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#sobre p {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.projeto {
+    flex: 1 1 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.projeto img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
+}
+
+#contato p {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
